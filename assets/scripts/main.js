@@ -1,0 +1,1 @@
+$(function(){var l=$("#navToggle"),i=$("nav>ul");l.click(function(){i.toggleClass("open")}),smoothScroll.init(),$(".slideshow").flickity({cellAlign:"left",contain:!0,imagesLoaded:!0})});
