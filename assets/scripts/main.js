@@ -1,1 +1,1 @@
-$(function(){var l=$("#navToggle"),i=$("nav>ul");l.click(function(){i.toggleClass("open")}),smoothScroll.init(),$(".slideshow").flickity({cellAlign:"left",contain:!0,imagesLoaded:!0})});
+$(function(){var l=$("#navToggle"),o=$("nav>ul");l.click(function(){o.toggleClass("open")}),smoothScroll.init(),$(".slideshow").flickity({cellAlign:"left",contain:!0,imagesLoaded:!0,pageDots:!1})});

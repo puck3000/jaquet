@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Jaquet</title>
+        <title>Les Jaquet</title>
 
 
         <meta name="description" content="">
@@ -16,10 +16,14 @@
         <link rel="stylesheet" href="assets/styles/main.css">
         <script src="assets/scripts/vendor/modernizr.js"></script>
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<!-- typekit -->
+        <script src="//use.typekit.net/xgn4ifo.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     </head>
-    <body>
+    <body id="top">
         <!--[if lt IE 7]>
             <p class="browsehappy">Ihr Browser ist <strong>uralt</strong>. Bitte <a href="http://browsehappy.com/">holen Sie sich ein kostenloses Update</a> um das Internet in all seinen prächtigen Farben erleben zu können.</p>
         <![endif]-->
@@ -27,14 +31,14 @@
         <div id="wrapper">
 <header>
   <div id="head">
-    <a href="index.html"><img src="assets/img/lesJ.png" alt="Logo Les Jacquets"></a>
+    <a href="/"><img src="assets/img/lesJ.png" alt="Logo Les Jacquets"></a>
   </div>
   <nav id="mainNav">
     <ul>
       <li><a href="#" id="navToggle">Menu</a></li>
       <li><a href="agentur.html ">Agentur</a></li>
       <li><a href="arbeiten.html">Arbeiten</a></li>
-      <li><a target="_blank" href="http://catsofinstagram.com/">News</a></li>
+      <li><a href="news.html">News</a></li>
       <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
   </nav>
@@ -44,10 +48,10 @@
       <h2>Agentur</h2>
       <h4>Wir schaffen Markenerlebnisse</h4>
       <p>Leidenschaft und Liebe zum Detail – das ist, was uns jeden Tag motiviert, Aussergewöhnliches zu schaffen: inspirierende Konzepte, die Marken erlebbar und Menschen kommunikativ verbunden machen. </p>
-      <nav id="subNav">
+      <nav class="subNav">
         <ul>
-          <li><a data-scroll id="toggleAngebot" href="#angebot">Angebot</a></li>
-          <li><a data-scroll id="toggleTeam" href="#team">Team</a></li>
+          <li><a data-scroll class="toggleAngebot" href="#angebot">Angebot</a></li>
+          <li><a data-scroll class="toggleTeam" href="#team">Team</a></li>
         </ul>
       </nav>
     </section>
@@ -86,6 +90,14 @@
         </li>
 
       </ul>
+
+      <nav class="subNav">
+        <ul>
+          <li><a data-scroll class="toggleTop" href="#top">Back to Top</a></li>
+          <li><a data-scroll class="toggleTeam" href="#team">Team</a></li>
+        </ul>
+      </nav>
+
     </section>
     <section id="team">
       <h2>Team</h2>
@@ -106,6 +118,14 @@
           </p>
       </li>
       </ul>
+
+      <nav class="subNav">
+        <ul>
+          <li><a data-scroll class="toggleAngebot" href="#angebot">Angebot</a></li>
+          <li><a data-scroll class="toggleTop" href="#top">Back to Top</a></li>
+        </ul>
+      </nav>
+
     </section>
   </main>
 <footer>
