@@ -62,19 +62,19 @@ $(".slideshow").on('mousemove', function(e) {
   });
 
   // counter
-  var $gallery = $('.gallery').flickity();
-  var $galleryStatus = $('.gallery-status');
-  var flkty = $gallery.data('flickity');
+  // var $gallery = $('.gallery').flickity();
+  // var $galleryStatus = $('.gallery-status');
+  // var flkty = $gallery.data('flickity');
+  //
+  // function updateStatus() {
+  //   var cellNumber = flkty.selectedIndex + 1;
+  //   $galleryStatus.text( cellNumber + '/' + flkty.cells.length );
+  // }
+  // updateStatus();
+  // $gallery.on( 'cellSelect', updateStatus );
 
-  function updateStatus() {
-    var cellNumber = flkty.selectedIndex + 1;
-    $galleryStatus.text( cellNumber + '/' + flkty.cells.length );
-  }
-  updateStatus();
-  $gallery.on( 'cellSelect', updateStatus );
-
-
-
+// Adding Responsive Video
+  $(".videoEmbed").fitVids();
 
 
 
